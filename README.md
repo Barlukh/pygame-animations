@@ -1,8 +1,2 @@
-## Introduction
-Work in progress
-
-## Functionality
-Work in progress.
-
-## Installation
-Work in progress.
+## About
+A collection of code to create basic animations in Pygame. Based on the MOOC 2024 online teaching material.
