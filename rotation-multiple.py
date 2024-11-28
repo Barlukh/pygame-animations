@@ -6,7 +6,7 @@ pygame.init()
 window_width, window_height = 640, 480
 
 window = pygame.display.set_mode((window_width, window_height))
-robot = pygame.image.load("robot.png")
+robot = pygame.image.load("image-robot.png")
  
 width = robot.get_width()
 height = robot.get_height()

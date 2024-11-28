@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 window = pygame.display.set_mode((640, 480))
 
-ball = pygame.image.load("ball.png")
+ball = pygame.image.load("image-ball.png")
 
 x = 0
 y = 0

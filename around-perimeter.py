@@ -3,7 +3,7 @@ import pygame
 pygame.init()
 window = pygame.display.set_mode((640, 480))
 
-robot = pygame.image.load("robot.png")
+robot = pygame.image.load("image-robot.png")
 
 x = 0
 y = 0

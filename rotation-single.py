@@ -4,7 +4,7 @@ import math
 pygame.init()
 window = pygame.display.set_mode((640, 480))
 
-robot = pygame.image.load("robot.png")
+robot = pygame.image.load("image-robot.png")
 
 angle = 0
 clock = pygame.time.Clock()
