@@ -20,8 +20,8 @@ while True:
  
     window.fill((0, 0, 0))
     for i in range(number):
-        x = 640/2+math.cos(angle+2*math.pi*i/number)*radius-robot_width/2
-        y = 480/2+math.sin(angle+2*math.pi*i/number)*radius-robot_height/2
+        x = 640 / 2 + math.cos(angle + 2 * math.pi * i / number) * radius - robot_width / 2
+        y = 480 / 2 + math.sin(angle + 2 * math.pi * i / number) * radius - robot_height / 2
         window.blit(robot, (x, y))
     pygame.display.flip()
  
