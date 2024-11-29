@@ -2,6 +2,7 @@ import pygame
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
+clock = pygame.time.Clock()
 
 robot = pygame.image.load("image-robot.png")
 
@@ -9,7 +10,6 @@ x = 0
 y = 0
 velocity = 1
 direction = 1
-clock = pygame.time.Clock()
 
 while True:
     for event in pygame.event.get():

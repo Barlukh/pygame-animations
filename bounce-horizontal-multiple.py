@@ -2,6 +2,7 @@ import pygame
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
+clock = pygame.time.Clock()
 
 robot = pygame.image.load("image-robot.png")
 robot_width = robot.get_width()
@@ -13,8 +14,6 @@ class Robot:
         self.x = x
         self.y = y
         self.velocity = velocity
-
-clock = pygame.time.Clock()
 
 robot1 = Robot(0, 50, 1)
 robot2 = Robot(0, 140, 2)

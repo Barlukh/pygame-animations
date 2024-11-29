@@ -2,6 +2,7 @@ import pygame
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
+clock = pygame.time.Clock()
 
 ball = pygame.image.load("image-ball.png")
 
@@ -9,7 +10,6 @@ x = 0
 y = 0
 x_velocity = 1
 y_velocity = 1
-clock = pygame.time.Clock()
 
 while True:
     for event in pygame.event.get():

@@ -2,6 +2,7 @@ import pygame
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
+clock = pygame.time.Clock()
 
 robot = pygame.image.load("image-robot.png")
 
@@ -9,8 +10,6 @@ robot_x = 0
 robot_y = 0
 target_x = 0
 target_y = 0
-
-clock = pygame.time.Clock()
 
 while True:
     for event in pygame.event.get():

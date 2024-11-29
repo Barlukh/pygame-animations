@@ -2,8 +2,10 @@ import pygame
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
+clock = pygame.time.Clock()
 
 robot = pygame.image.load("image-robot.png")
+
 x = 0
 y = 480 - robot.get_height()
 
@@ -11,8 +13,6 @@ to_up = False
 to_down = False
 to_right = False
 to_left = False
-
-clock = pygame.time.Clock()
 
 while True:
     for event in pygame.event.get():
