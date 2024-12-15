@@ -1,16 +1,18 @@
+""" Two objects move horizontally across the window at different speeds. """
+
 import pygame
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
 clock = pygame.time.Clock()
 
-robot = pygame.image.load("image-robot.png")
+robot = pygame.image.load("graphics/robot.png")
 robot_width = robot.get_width()
 robot_height = robot.get_height()
 
 class Robot:
     def __init__(self, x: int, y: int, velocity: int):
-        self.image = pygame.image.load("robot.png")
+        self.image = pygame.image.load("graphics/robot.png")
         self.x = x
         self.y = y
         self.velocity = velocity

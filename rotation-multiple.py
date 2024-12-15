@@ -1,3 +1,5 @@
+""" Multiple objects rotate in a circle. """
+
 import pygame
 import math
  
@@ -5,7 +7,7 @@ pygame.init()
 window = pygame.display.set_mode((640, 480))
 clock = pygame.time.Clock()
 
-robot = pygame.image.load("image-robot.png")
+robot = pygame.image.load("graphics/robot.png")
 robot_width = robot.get_width()
 robot_height = robot.get_height()
 

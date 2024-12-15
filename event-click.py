@@ -1,10 +1,12 @@
+""" Object appears at random location when clicked-on. """
+
 import pygame
 import random
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
 
-robot = pygame.image.load("image-robot.png")
+robot = pygame.image.load("graphics/robot.png")
 
 robot_x = random.randint(0, 640 - robot.get_width())
 robot_y = random.randint(0, 480 - robot.get_height())

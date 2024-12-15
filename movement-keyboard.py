@@ -1,3 +1,5 @@
+""" Object can be moved around with arrow keys. """
+
 import pygame
 
 pygame.init()
@@ -10,7 +12,7 @@ class Entity:
         self.y = y
         self.image = image
     
-robot = Entity(0, 0, pygame.image.load("image-robot.png"))
+robot = Entity(0, 0, pygame.image.load("graphics/robot.png"))
 
 def draw_window():
     window.fill((0, 0, 0))

@@ -1,10 +1,12 @@
+""" Object bounces around the window. """
+
 import pygame
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
 clock = pygame.time.Clock()
 
-ball = pygame.image.load("image-ball.png")
+ball = pygame.image.load("graphics/ball.png")
 
 x = 0
 y = 0
