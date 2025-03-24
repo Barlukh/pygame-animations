@@ -1,4 +1,14 @@
-""" Object can be moved around with arrow keys. """
+"""
+Project Title: Pygame Animations
+Filename: movement-keyboard.py
+
+Description:
+    Animation sample where an object can be moved around with arrow keys.
+    Requirements: Python and Pygame.
+"""
+
+__author__ = "Boris Gazur"
+__date__ = "March 24, 2025"
 
 import pygame
 

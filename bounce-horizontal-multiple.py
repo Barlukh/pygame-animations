@@ -1,4 +1,14 @@
-""" Two objects move horizontally across the window at different speeds. """
+"""
+Project Title: Pygame Animations
+Filename: bounce-horizontal-multiple.py
+
+Description:
+    Animation sample where two objects move horizontally across the window at different speeds.
+    Requirements: Python and Pygame.
+"""
+
+__author__ = "Boris Gazur"
+__date__ = "March 24, 2025"
 
 import pygame
 

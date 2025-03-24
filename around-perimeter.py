@@ -1,4 +1,14 @@
-""" Object moves around the perimeter of the window. """
+"""
+Project Title: Pygame Animations
+Filename: around-perimeter.py
+
+Description:
+    Animation sample where an object moves around the perimeter of the window.
+    Requirements: Python and Pygame.
+"""
+
+__author__ = "Boris Gazur"
+__date__ = "March 24, 2025"
 
 import pygame
 

@@ -1,4 +1,14 @@
-""" Object rotates in a circle. """
+"""
+Project Title: Pygame Animations
+Filename: rotation-single.py
+
+Description:
+    Animation sample where one object rotates in a circle.
+    Requirements: Python and Pygame.
+"""
+
+__author__ = "Boris Gazur"
+__date__ = "March 24, 2025"
 
 import pygame
 import math

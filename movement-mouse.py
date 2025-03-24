@@ -1,4 +1,14 @@
-""" Object follows a mouse cursor. """
+"""
+Project Title: Pygame Animations
+Filename: movement-mouse.py
+
+Description:
+    Animation sample where an object follows a mouse cursor.
+    Requirements: Python and Pygame.
+"""
+
+__author__ = "Boris Gazur"
+__date__ = "March 24, 2025"
 
 import pygame
 

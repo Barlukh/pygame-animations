@@ -1,4 +1,14 @@
-""" Object bounces around the window. """
+"""
+Project Title: Pygame Animations
+Filename: bounce-perimeter.py
+
+Description:
+    Animation sample where an object bounces around the window.
+    Requirements: Python and Pygame.
+"""
+
+__author__ = "Boris Gazur"
+__date__ = "March 24, 2025"
 
 import pygame
 

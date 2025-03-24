@@ -1,4 +1,14 @@
-""" Object moves horizontally across the window. """
+"""
+Project Title: Pygame Animations
+Filename: bounce-horizontal-single.py
+
+Description:
+    Animation sample where one object moves horizontally across the window.
+    Requirements: Python and Pygame.
+"""
+
+__author__ = "Boris Gazur"
+__date__ = "March 24, 2025"
 
 import pygame
 
