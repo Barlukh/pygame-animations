@@ -7,9 +7,6 @@ Description:
     Requirements: Python and Pygame.
 """
 
-__author__ = "Boris Gazur"
-__date__ = "March 24, 2025"
-
 import pygame
 import math
 
